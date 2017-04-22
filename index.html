@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    Hello World
+
+<h1>Compre o seu calçado na Havaianas</h1>
+ <fieldset>
+   <legend>Dados pessoais</legend>
+  <form><!-- Formulario -->
+	  <label for="nome">Nome:</label><input type="text" id="nome">
+    <br>
+    <label for="data">Data de Nascimento:</label><input type="date" id="data">
+    <br>
+    <label for="email">Email:</label><input type="email" id="email">
+    <br>
+    <label for="tel">Telefone:</label><input type="text" id="tel">
+    <label for="Estado">Estado</label>
+      <select>
+
+        <optgroup label="Região Sul">
+          <option value="Paraná">Paraná</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+        </optgroup>
+
+        <optgroup label="Região Sudeste">
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+          <option value="ES">Espirito Santo</option>
+          <option value="MG">Minas Gerais</option>
+        </optgroup>
+
+        <optgroup label="Região Norte">
+          <option value="AC">Acre</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="PR">Pará</option>
+          <option value="RN">Rondônia</option>
+          <option value="RM">Roraima</option>
+          <option value="TO">Tocantis</option>
+        </optgroup>
+
+        <optgroup label="Região Nordeste">
+          <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="MA">Maranhão</option>
+          <option value="PB">Paraiba</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="SE">Sergipe</option>
+        </optgroup>
+
+        <optgroup label="Região Centro-Oeste">
+          <option value="GO">Goias</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="DF">Distrito Federal</option>
+        </optgroup>
+        <br>
+ </form>
+</fieldset>
+
+<fieldset>
+  <legend>Personalize seu calçado</legend>
+   <label for="cor">Cores:</label><input type="color" id="cor">
+   <br>
+   <label for="tamanho">Qual o tamanho do seu pé:</label><input type="number" id="numero">
+   <br>
+   <label for="opçoes">Escolha o tipo de calçado:</label>
+     <select id="opçoes">
+       <option>Rasteira</option>
+       <option>Tênis</option>
+       <option>Sapatênis</option>
+     </select>
+</fieldset>
 
   </body>
 </html>
